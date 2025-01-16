@@ -1,0 +1,9 @@
+<meta charset="UTF-8">
+<script>
+    var preco = Number(prompt("Digite o valor do produto: R$"));
+    var precoAvista = preco - (preco * 0.10);
+    var qtdParcela = 3
+    var precoParcelado = preco / qtdParcela;
+
+    alert("Preço R$: " + preco.toFixed(2) + "\nÀ Vista (-10%): R$" + precoAvista.toFixed(2) + "\n3x de: R$" + precoParcelado.toFixed(2));
+</script>
